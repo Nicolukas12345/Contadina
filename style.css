@@ -47,8 +47,8 @@ nav > ul > li{
 main > div > ul > li{ /*social media ul*/
     float: left;
     width: 10%;
-
 }
+
 .mainAndHeader {
     background-image: url("https://freefoodphotos.com/imagelibrary/vegetables/white_cauliflower.jpg");
 }
@@ -81,12 +81,17 @@ h1 {
     font-size: 7.5rem;
 }
 
-
 .headerUl {
     font-size: 1.5rem;
 }
 
-input {
-    padding: 1%;
-    width: 37.5%;
+.formBar input {
+    padding: 0 60% 5% 0;
+    margin: 0 0 5% 0;
 }
+
+.formBar > li { /*social media ul*/
+    float: left;
+    width: 40%;
+}
+
