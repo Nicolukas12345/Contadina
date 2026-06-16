@@ -1,3 +1,5 @@
+/*TODO figure out why that hell these ul keep banging with each other*/
+ 
 * {
     box-sizing: border-box;
     margin: 0; /*To fix that weird default margin around the body and other elements*/
@@ -46,27 +48,7 @@ nav > ul > li{
 
 main > div > ul > li{ /*social media ul*/
     float: left;
-    width: 10%;
-}
-
-.mainAndHeader {
-    background-image: url("https://freefoodphotos.com/imagelibrary/vegetables/white_cauliflower.jpg");
-}
-
-section {
-    background-image: url("https://freefoodphotos.com/imagelibrary/fruit/apple_on_white.jpg");
-}
-
-section + section {
-    background-image: url("https://freefoodphotos.com/imagelibrary/vegetables/uncooked_mushrooms.jpg");
-}
-
-section + section + section{
-    background-image: url("https://freefoodphotos.com/imagelibrary/vegetables/various_mushrooms.jpg");
-}
-
-footer {
-    background-color: antiquewhite;
+    margin: 0 7%;   /*TODO figure out why that hell these ul keep banging with each other*/
 }
 
 .mainShift {
@@ -90,8 +72,31 @@ h1 {
     margin: 0 0 5% 0;
 }
 
-.formBar > li { /*social media ul*/
+.formBar > li {
     float: left;
-    width: 40%;
+}
+
+.formBar a[href = "Location"] {
+    margin: 0 0 0 150%;
+}
+
+.mainAndHeader {
+    background-image: url("https://freefoodphotos.com/imagelibrary/vegetables/white_cauliflower.jpg");
+}
+
+section {
+    background-image: url("https://freefoodphotos.com/imagelibrary/fruit/apple_on_white.jpg");
+}
+
+section + section {
+    background-image: url("https://freefoodphotos.com/imagelibrary/vegetables/uncooked_mushrooms.jpg");
+}
+
+section + section + section{
+    background-image: url("https://freefoodphotos.com/imagelibrary/vegetables/various_mushrooms.jpg");
+}
+
+footer {
+    background-color: antiquewhite;
 }
 
