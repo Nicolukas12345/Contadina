@@ -34,13 +34,13 @@ section > div{ /*For middle divisions*/
     text-align: start;
 }
 
-.firstSection {
-    padding: 0 20% 0 30%;
+.firstSection { 
+    padding: 10% 23% 10% 37%;
 }
 
 p {
     font-size: 1.8rem;
-
+    margin: 3% 0;
 }
 
 div > span {
