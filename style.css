@@ -49,12 +49,14 @@ div > span {
 
 .centered > ul{
     text-align: center;
-    margin: 10%;
+    margin: 1%;
+    font-size: 2rem;
 }
 
 .centered > ul > li{
     display: inline-block;
     padding-left: 1%;
+    margin: 2% 1.5%;
     float: none;
     width: none;
     margin: none;
@@ -99,6 +101,10 @@ h2 {
     margin: 0 0 0 350%;
 }
 
+.firstSection a { /*button on firstSection*/
+    font-size: 2rem;
+}
+
 .mainAndHeader {
     background-image: url("https://freefoodphotos.com/imagelibrary/vegetables/white_cauliflower.jpg");
 }
@@ -108,7 +114,12 @@ section {
 }
 
 section + section {
-    background-image: url("https://freefoodphotos.com/imagelibrary/vegetables/uncooked_mushrooms.jpg");
+    background-image: url("https://freefoodphotos.com/imagelibrary/vegeMove cursor tables/uncooked_mushrooms.jpg");
+    padding: 5% 10% 5% 10%; 
+}
+
+section + section > ul { /*TODO: Figure out how to make the images wrap and be into 2 lines so ts organized*/
+    float: left;
 }
 
 section + section + section{
