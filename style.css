@@ -64,7 +64,7 @@ div > span {
 
 main > div > ul > li{ /*social media ul*/
     float: left;
-    margin: 0 11% 0 0;   /*TODO figure out why that hell these ul keep banging with each other*/
+    margin: 0 11% 0 0;
 }
 
 .mainShift {
@@ -119,9 +119,17 @@ section + section {
 }
 
 section + section > ul { /*TODO: Figure out how to make the images wrap and be into 2 lines so ts organized*/
-    float: left;
+   float: left; 
 }
 
+section + section > ul img{
+
+}
+
+section + section > ul{
+    width: 20%;
+    height: 20;
+}
 section + section + section{
     background-image: url("https://freefoodphotos.com/imagelibrary/vegetables/various_mushrooms.jpg");
 }
