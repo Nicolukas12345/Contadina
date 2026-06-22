@@ -119,18 +119,17 @@ section + section {
 }
 
 section + section > ul { /*TODO: Figure out how to make the images wrap and be into 2 lines so ts organized*/
-    clear: both;    
-    width: 20%;
-    height: 20%; 
+    clear: both;     
 }
 
 section + section > ul img{
-    width: 100%;
-    height: 100%;
+    float: left;
+    width: 20%;
+    height: 20%;
 }
 
 section + section > ul > li{
-    float: left;    
+    float: right; 
 }
 section + section + section{
     background-image: url("https://freefoodphotos.com/imagelibrary/vegetables/various_mushrooms.jpg");
