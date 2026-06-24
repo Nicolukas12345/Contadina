@@ -130,8 +130,7 @@ section + section > ul > li > img {
     object-fit: cover; 
 }
 
-section + section + section {
-
+section + section + section{
     background-image: url("https://freefoodphotos.com/imagelibrary/vegetables/various_mushrooms.jpg");
 }
 
