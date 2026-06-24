@@ -79,11 +79,6 @@ h1 {
     font-size: 7.5rem;
 }
 
-h2 {
-    
-	
-}
-
 .headerUl {
     font-size: 1.5rem;
 }
@@ -115,7 +110,7 @@ section {
 
 section + section {
     background-image: url("https://freefoodphotos.com/imagelibrary/vegeMove cursor tables/uncooked_mushrooms.jpg");
-    padding: 5% 10% 5% 10%; 
+    padding: 4% 10% 4% 10%; 
 }
 
 section + section > ul { /*TODO: Figure out how to make the images wrap and be into 2 liones so ts organized*/
@@ -123,17 +118,26 @@ section + section > ul { /*TODO: Figure out how to make the images wrap and be i
 }
 
 section + section > ul > li { 
-    float: left;
+    float: right;
     margin: 2% 1%;
-    width: 15%; 
+    height: 20%;
+    width: 23%; 
 }
 
 section + section > ul > li > img { 
-    width: 100%; 
+    width: 100%;
+    height: 450px;
+    object-fit: cover; 
 }
 
 section + section + section {
+
     background-image: url("https://freefoodphotos.com/imagelibrary/vegetables/various_mushrooms.jpg");
+}
+
+section + section + section li{
+    float: left;
+    width: 50%;
 }
 
 footer {
