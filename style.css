@@ -96,8 +96,8 @@ h2 {
     float: left;
 }
 
-.formBar a {
-    margin: 0 0 0 350%;
+.formBar button {
+    margin: 0 0 0 500%;
 }
 
 .firstSection a { /*button on firstSection*/
