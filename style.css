@@ -7,7 +7,7 @@
 }
 
 title {
-    display: none; /*display:flow-root; above cause title show so changed removed the display*/
+    display: none; /*display:flow-root; above causes title to show so changed removed the display*/
 }
 
 html {
@@ -88,12 +88,16 @@ h2 {
     font-size: 1.5rem;
 }
 
+.formBar {
+    margin: 0 55% 0 0;
+}
+
 .formBar input {
     padding: 0 170% 15% 0;
     margin: 0 0 15% 0;
 }
 
-.formBar > li {
+.formBar > li { /*TODO: I realized I was changing the margins and padding onthe input and button but not the the li themselves which I believe is causing the issues with colliding objects. So fix that. */
     float: left;
 }
 
