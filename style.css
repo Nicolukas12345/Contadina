@@ -4,6 +4,16 @@
     padding: 0;
     display: flow-root;
     width: auto;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 title {
@@ -68,6 +78,10 @@ main > div > ul > li{ /*social media ul*/
     margin: 0 11% 0 0;
 }
 
+.fa-brands { /*TODO: This is changing the  margin on the anchor tag but we need to change the marign for the li but only on the li that hvae the fa-brand. figure it out
+    margin: 0 -3% 0 0;
+}	
+
 .mainShift {
     margin: 10%;
     display: inline-block;
@@ -103,10 +117,12 @@ input {
     margin: 0 0 5% 0;
 }
 
-button { 
+button {	
     width: 0 100px 0 0;
-    padding: 0 60px 30px 0;
-    background-color: orange; 
+    padding: 15px 30px 15px 30px;
+    background-color: orange;
+    color: white;
+    text-align: center; 
 }
 
 div > span { /* for the spans un top of every title*/
